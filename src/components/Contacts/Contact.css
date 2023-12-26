@@ -1,0 +1,12 @@
+.contact-container{
+    margin-top: 5rem;
+    background-color: #f9f9f9;
+}
+
+.contact-headers *{
+    font-family: "Poppins",sans-serif;
+}
+
+.contact-info p{
+    font-family: "Montserrat" , sans-serif;
+}

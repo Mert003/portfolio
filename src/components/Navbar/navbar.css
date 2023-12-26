@@ -1,0 +1,11 @@
+.navbar{
+    box-shadow: 2px 2px 5px #d2d2d2;
+    color:#2d2e32;
+}
+.navbar li{
+    font-family: "Montserrat", sans-serif;
+    margin-right: 1em;
+}
+#responsive-navbar-nav li:hover{
+    cursor: pointer;
+}

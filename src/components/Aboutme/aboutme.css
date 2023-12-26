@@ -1,0 +1,12 @@
+.aboutmeInfo h6{  
+    font-family: "Montserrat", sans-serif;
+}
+.aboutmeInfo h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    color:#2d2e32;
+}
+.aboutmeInfo p{
+    font-family: "Open-sans" , sans-serif;
+    font-size: 1.1rem;
+}

@@ -1,0 +1,39 @@
+.project-container{
+    width: 100%;
+    background-color: #f9f9f9;
+}
+.project-infos{
+  
+    color:#2d2e32;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.project-infos h1,h3{
+    font-family: "Poppins" , sans-serif;
+}
+.project-infos p{
+    font-family: "Open-sans", sans-serif;
+    font-size: 1.2rem;
+}
+.project-infos a{
+    text-decoration: none;
+}
+.preview{
+    display: flex;
+    flex-direction: row;
+   
+    align-items: center;
+    text-align: center;
+    color:#0DCAF0 ;
+    justify-content: center;
+}
+
+.preview:hover{
+    cursor: pointer;
+}
+.text-info{
+    margin: 0;
+    margin-right: 5px;
+}
