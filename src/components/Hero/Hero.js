@@ -10,6 +10,7 @@ import { BsFiletypeSql } from "react-icons/bs";
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiTypescript, SiNextdotjs } from "react-icons/si";
 import picture from "../../images/picture.jpg";
+import profile from "../../images/profile.jpeg";
 
 const WavingImage = () => {
   const controls = useAnimation();
@@ -35,13 +36,14 @@ const WavingImage = () => {
       ref={ref}
       initial={{ borderRadius: '50%' }}
       animate={controls}
-      style={{ width: '25rem', height: '100%', overflow: 'hidden' }}
+      style={{ width: '25rem', height: '25rem', overflow: 'hidden' }}
+      className='profile-container'
     >
       <img
-        src={picture} // Replace with your image URL
+        src={profile} // Replace with your image URL
         alt="Waving Image"
 
-        style={{ width: "100%", maxWidth: '25rem', minHeight: '20rem', objectFit: "cover", objectPosition: "center" }}
+        style={{ width: "100%", minHeight: '100%', objectFit: "cover", objectPosition: "center" }}
       />
     </motion.div>
   );
